@@ -1,2 +1,2 @@
 # PassingThroughLimbo
-TeamDontAsk's GameJam game portet to Unity
+TeamDontAsk's GameJam game ported to Unity
