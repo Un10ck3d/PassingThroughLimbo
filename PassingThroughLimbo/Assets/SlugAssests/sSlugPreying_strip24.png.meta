@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: 8053593985bee5a4b976a0ec718a5fdd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3690591099160596254
+    second: sSlugPreying_strip24_0
+  - first:
+      213: -82842907495158212
+    second: sSlugPreying_strip24_1
+  - first:
+      213: 7002199861677627741
+    second: sSlugPreying_strip24_2
+  - first:
+      213: -5633457450913015951
+    second: sSlugPreying_strip24_3
+  - first:
+      213: -432931731742814817
+    second: sSlugPreying_strip24_4
+  - first:
+      213: 4826136228841410535
+    second: sSlugPreying_strip24_5
+  - first:
+      213: 8736647059237048611
+    second: sSlugPreying_strip24_6
+  - first:
+      213: -1464225062350543846
+    second: sSlugPreying_strip24_7
+  - first:
+      213: -8274474263889673569
+    second: sSlugPreying_strip24_8
+  - first:
+      213: -5248432727484509638
+    second: sSlugPreying_strip24_9
+  - first:
+      213: -4280115787533571878
+    second: sSlugPreying_strip24_10
+  - first:
+      213: 5723686733420805941
+    second: sSlugPreying_strip24_11
+  - first:
+      213: -1136427706093176797
+    second: sSlugPreying_strip24_12
+  - first:
+      213: -609977288511037155
+    second: sSlugPreying_strip24_13
+  - first:
+      213: 1410217498168277409
+    second: sSlugPreying_strip24_14
+  - first:
+      213: 7374663809328054001
+    second: sSlugPreying_strip24_15
+  - first:
+      213: 3733388045959949105
+    second: sSlugPreying_strip24_16
+  - first:
+      213: -2670083289073580248
+    second: sSlugPreying_strip24_17
+  - first:
+      213: -6233744475278858908
+    second: sSlugPreying_strip24_18
+  - first:
+      213: 8815444571884413131
+    second: sSlugPreying_strip24_19
+  - first:
+      213: 8515371797961165460
+    second: sSlugPreying_strip24_20
+  - first:
+      213: -9206993996263286385
+    second: sSlugPreying_strip24_21
+  - first:
+      213: -7977563562152484887
+    second: sSlugPreying_strip24_22
+  - first:
+      213: 446053244277060295
+    second: sSlugPreying_strip24_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +104,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +113,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +147,549 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f8fa41d0d973330800000000000000
+      internalID: 3690591099160596254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e279680dea9def0800000000000000
+      internalID: -82842907495158212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d599599ccafcc2160800000000000000
+      internalID: 7002199861677627741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1775d05bb40f1d1b0800000000000000
+      internalID: -5633457450913015951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d897d32eaedf9f0800000000000000
+      internalID: -432931731742814817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef4cb58451e9f240800000000000000
+      internalID: 4826136228841410535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32119cd263ece3970800000000000000
+      internalID: 8736647059237048611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142f5740170eabe0800000000000000
+      internalID: -1464225062350543846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f928ebd3f792b2d80800000000000000
+      internalID: -8274474263889673569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3250c2ed32d927b0800000000000000
+      internalID: -5248432727484509638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad825864e59f994c0800000000000000
+      internalID: -4280115787533571878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb92732ce9e6f40800000000000000
+      internalID: 5723686733420805941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3287769b5099a30f0800000000000000
+      internalID: -1136427706093176797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d116e3d43ece887f0800000000000000
+      internalID: -609977288511037155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a93c5ac759129310800000000000000
+      internalID: 1410217498168277409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe7de479a1185660800000000000000
+      internalID: 7374663809328054001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13be120c5a8afc330800000000000000
+      internalID: 3733388045959949105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82700123565f1fad0800000000000000
+      internalID: -2670083289073580248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46523727d6a4d79a0800000000000000
+      internalID: -6233744475278858908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e054c120c65a70800000000000000
+      internalID: 8815444571884413131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49acadba88dac2670800000000000000
+      internalID: 8515371797961165460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89929bbdbf2a3080800000000000000
+      internalID: -9206993996263286385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef1dc805300a4190800000000000000
+      internalID: -7977563562152484887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sSlugPreying_strip24_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 30
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c27b08ff03b03600800000000000000
+      internalID: 446053244277060295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
