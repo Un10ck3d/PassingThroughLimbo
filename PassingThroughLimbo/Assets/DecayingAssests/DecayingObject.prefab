@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8712156671727093580}
   - component: {fileID: 8566339690810478606}
   m_Layer: 0
-  m_Name: Decaying
+  m_Name: DecayingObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
