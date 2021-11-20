@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 1642638816602702773
     second: sPlayerIdle_strip4_3
+  - first:
+      213: -4492884831140083451
+    second: PlayerIdleSprite_0
+  - first:
+      213: -7329008813041629755
+    second: PlayerIdleSprite_1
+  - first:
+      213: -137985868952385526
+    second: PlayerIdleSprite_2
+  - first:
+      213: 3507531259036202343
+    second: PlayerIdleSprite_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_0
+      name: PlayerIdleSprite_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 39
-        height: 35
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7d1935090135ae0800000000000000
-      internalID: -1561886433704028199
+      spriteID: 5098727ec0116a1c0800000000000000
+      internalID: -4492884831140083451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_1
+      name: PlayerIdleSprite_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 39
-        height: 36
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b585be8a5e085b0800000000000000
-      internalID: -5368038242159928486
+      spriteID: 5c542f6b0512a4a90800000000000000
+      internalID: -7329008813041629755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_2
+      name: PlayerIdleSprite_2
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 39
-        height: 37
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11fdb39cd6aa19450800000000000000
-      internalID: 6093839159313293073
+      spriteID: a08c1115596c51ef0800000000000000
+      internalID: -137985868952385526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_3
+      name: PlayerIdleSprite_3
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 0
-        width: 39
-        height: 36
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b34fd5fc43dbc610800000000000000
-      internalID: 1642638816602702773
+      spriteID: 7657e6da8114da030800000000000000
+      internalID: 3507531259036202343
       vertices: []
       indices: 
       edges: []
