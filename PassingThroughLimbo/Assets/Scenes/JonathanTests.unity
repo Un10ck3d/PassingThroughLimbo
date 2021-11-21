@@ -186,6 +186,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4830783540898587773, guid: 1edc3699b337228469bdd89c9cb85523, type: 3}
+      propertyPath: m_Size.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830783540898587773, guid: 1edc3699b337228469bdd89c9cb85523, type: 3}
+      propertyPath: m_Size.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830783540898587773, guid: 1edc3699b337228469bdd89c9cb85523, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4492884831140083451, guid: c8fc55634acc70847b5971cedb87a29c, type: 3}
+    - target: {fileID: 4830783540898587773, guid: 1edc3699b337228469bdd89c9cb85523, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9207286173352603498, guid: 1edc3699b337228469bdd89c9cb85523, type: 3}
       propertyPath: m_Name
       value: PlayerObject
