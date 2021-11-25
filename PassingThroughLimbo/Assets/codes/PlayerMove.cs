@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    private float moveSpeed = 100f;
+    public float moveSpeed;
     private float CDT;
     private int maxjumps;
     private bool moveForward;
@@ -14,7 +14,6 @@ public class PlayerMove : MonoBehaviour
     private bool jump;
     private int MaxSpeed = 35;
     public float speed;
-    public float speed_dir;
     private Vector2 oldPosition;
 
     public Rigidbody2D rb;
@@ -26,7 +25,6 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
         speed = Vector2.Distance(oldPosition, transform.position) * 100f;
-        speed_dir = (transform.position.x - oldPosition.x);
         oldPosition = transform.position;
 
         if (MaxSpeed > speed){
