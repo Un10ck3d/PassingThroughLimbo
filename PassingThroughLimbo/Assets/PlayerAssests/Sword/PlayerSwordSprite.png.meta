@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 3582306811006359435
     second: sPlayerSword2_strip3_2
+  - first:
+      213: -2988792841808374055
+    second: PlayerSwordSprite_0
+  - first:
+      213: -2595334474707061894
+    second: PlayerSwordSprite_1
+  - first:
+      213: -4850119600565361113
+    second: PlayerSwordSprite_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,64 +133,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sPlayerSword2_strip3_0
+      name: PlayerSwordSprite_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 10
-        width: 33
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.15, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c208a83fcfdde510800000000000000
-      internalID: 1580165125378671300
+      spriteID: 9d618c4eebca586d0800000000000000
+      internalID: -2988792841808374055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerSword2_strip3_1
+      name: PlayerSwordSprite_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 9
-        width: 33
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.15, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8baac20ceeb9af0c0800000000000000
-      internalID: -4541145824521049416
+      spriteID: a73b2c1cb058bfbd0800000000000000
+      internalID: -2595334474707061894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerSword2_strip3_2
+      name: PlayerSwordSprite_2
       rect:
         serializedVersion: 2
-        x: 103
-        y: 10
-        width: 33
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.15, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b871f729019e6b130800000000000000
-      internalID: 3582306811006359435
+      spriteID: 726642a9be9e0bcb0800000000000000
+      internalID: -4850119600565361113
       vertices: []
       indices: 
       edges: []
