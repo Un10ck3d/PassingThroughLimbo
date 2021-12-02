@@ -3,26 +3,23 @@ using UnityEngine;
 public class camera_movement : MonoBehaviour
 {
     public Transform follow;
-
+    public PlayerMove hell;
+    private Vector3 pos;
     public float smooth_speed;
-    
-    public float speed = 0f;
-    public Vector3 starter_Camera_size;
-    public float Camera_size_range;
-    private Vector3 end_Camera_size;
-    public Vector2 oldPosition;
     public Vector3 offset;
+    public GameObject get_comp;
+    public float speed2;
     void start ()
     {
-        oldPosition = transform.position;
+        hell = get_comp.GetComponent<PlayerMove>();
     }
     void FixedUpdate()
     {
-        speed = Vector2.Distance(oldPosition, transform.position) * -10f;
-        end_Camera_size.z = starter_Camera_size.z += speed;
-        Vector3 despot = follow.position + end_Camera_size;
+        speed2 = hell.speed;
+        speed2 = -speed2 / 25;
+        Vector3 despot = follow.position + offset;
         Vector3 smoothpos = Vector3.Lerp (transform.position, despot, smooth_speed);
+        smoothpos.z = smoothpos.z += speed2;
         transform.position = smoothpos;
-        oldPosition = transform.position;
     }
 }

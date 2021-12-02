@@ -474,7 +474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579492994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.56, y: 0.42999998, z: -10}
+  m_LocalPosition: {x: 0, y: 0.85, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -493,12 +493,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 1833747368}
-  smooth_speed: 0.0625
-  speed: 0
-  starter_Camera_size: {x: 0, y: 0, z: -10}
-  Camera_size_range: 0
-  oldPosition: {x: 0, y: 0}
-  offset: {x: 0, y: 0, z: -10}
+  hell: {fileID: 1833747365}
+  smooth_speed: 0.125
+  offset: {x: 0, y: 0, z: -25}
+  get_comp: {fileID: 1833747364}
+  speed2: 0
 --- !u!1 &1833747364
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833747364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: -0.27, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
