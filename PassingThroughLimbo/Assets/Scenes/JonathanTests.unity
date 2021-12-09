@@ -339,6 +339,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &768447072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7107616599039663221, guid: fabfcdf814c1a3f4892f75c243b73f3f, type: 3}
+  m_PrefabInstance: {fileID: 1151602178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &768447073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6993136015562986994, guid: fabfcdf814c1a3f4892f75c243b73f3f, type: 3}
+  m_PrefabInstance: {fileID: 1151602178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &768447076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768447072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2950332cff20997428514090f4740a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordTransform: {fileID: 768447073}
+  mouse_pos: {x: 0, y: 0, z: 0}
 --- !u!1001 &1151602178
 PrefabInstance:
   m_ObjectHideFlags: 0
