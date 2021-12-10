@@ -76,9 +76,6 @@ public class PlayerMove : MonoBehaviour
         jump = false;
         if (Input.GetKey("w"))
             moveForward = true;
-            animator.SetBool("IsJumping", true);
-        if (!Input.GetKey("w"))
-            animator.SetBool("IsJumping", false);
         if (Input.GetKey("a"))
             moveLeft = true;
         //if (Input.GetKey("s"))
