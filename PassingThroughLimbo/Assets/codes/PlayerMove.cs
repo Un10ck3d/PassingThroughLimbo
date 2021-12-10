@@ -10,7 +10,8 @@ public class PlayerMove : MonoBehaviour
 
     public float moveSpeed;
     private float CDT;
-    private int maxjumps;
+    public int maxjumps;
+    private int finalmaxjumps;
     private bool moveForward;
     //private bool moveBack;
     private bool moveRight;
@@ -23,10 +24,17 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;
 
     public Rigidbody2D rb;
+    private float finalcooldown;
+    public float jumpcooldown;
 
     void Start(){
         //animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+    }
+    void OnCollisionEnter(Collision what){
+        if (what.GameObject.tag == "Floor"){
+            finalmaxjumps = maxjumps;
+        }
     }
 
     void FixedUpdate()
@@ -58,8 +66,12 @@ public class PlayerMove : MonoBehaviour
         }
 
         if (jump){
-            rb.AddForce(new Vector2(0,7500f));
-            CDT = 0;
+            if (finalcooldown <= 0.001f)
+            {
+                rb.AddForce(new Vector2(0,75000f));
+                finalcooldown = jumpcooldown;
+                finalmaxjumps -= 1;
+            }
         }
 
         
@@ -84,16 +96,17 @@ public class PlayerMove : MonoBehaviour
             moveRight = true;
         if (maxjumps > 0.1)
         {
-            if (CDT > 2.9999)
+            if (finalcooldown < 0.01f)
             {
 		        if (Input.GetKey("space")){
                     jump = true;
                 }
             }
         }
-
-        if (CDT < 3){
-            CDT += 0.01f;
+        if (rb.velocity.y == 0){
+            if (finalcooldown < jumpcooldown + 0.01f){
+                CDT += 0.01f;
+            }
         }
     }
 }

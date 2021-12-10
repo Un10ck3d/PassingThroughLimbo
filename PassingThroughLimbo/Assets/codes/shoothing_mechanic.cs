@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class shoothing_mechanic : MonoBehaviour
 {
+    //this code should be set on the rotating gun or arm
     public Transform fire_point;
     public GameObject get_prefab;
 
