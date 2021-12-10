@@ -23,6 +23,8 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;
 
     public Rigidbody2D rb;
+    private float finalcooldown;
+    public float jumpcooldown;
 
     void Start(){
         //animator = GetComponent<Animator>();
@@ -58,8 +60,11 @@ public class PlayerMove : MonoBehaviour
         }
 
         if (jump){
-            rb.AddForce(new Vector2(0,7500f));
-            CDT = 0;
+            if (finalcooldown <= 0.001f)
+            {
+                rb.AddForce(new Vector2(0,75000f));
+                finalcooldown = jumpcooldown;
+            }
         }
 
         
@@ -84,16 +89,16 @@ public class PlayerMove : MonoBehaviour
             moveRight = true;
         if (maxjumps > 0.1)
         {
-            if (CDT > 2.9999)
+            if (finalcooldown < 0.01f)
             {
 		        if (Input.GetKey("space")){
                     jump = true;
                 }
             }
-        }
-
-        if (CDT < 3){
-            CDT += 0.01f;
+                
+            if (finalcooldown < jumpcooldown + 0.01f){
+                CDT += 0.01f;
+            }
         }
     }
 }
