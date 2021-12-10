@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public SpriteRenderer m_SpriteRenderer ;
-    public Vector3 currVel;
-    public Vector3 prevPos;
+    public SpriteRenderer m_SpriteRenderer;
 
     public float moveSpeed;
     private float CDT;
@@ -31,9 +29,9 @@ public class PlayerMove : MonoBehaviour
         //animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
-    void OnCollisionEnter(Collision what){
-        if (what.GameObject.tag == "Floor"){
-            finalmaxjumps = maxjumps;
+    void OnCollisionEnter2D(Collision2D what){
+        if (what.gameObject.tag == "Floor"){
+          finalmaxjumps = maxjumps;
         }
     }
 
