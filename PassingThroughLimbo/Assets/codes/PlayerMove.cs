@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public SpriteRenderer m_SpriteRenderer ;
+    public Vector3 currVel;
+    public Vector3 prevPos;
+
     public float moveSpeed;
     private float CDT;
     private int maxjumps;
@@ -16,9 +20,12 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     private Vector2 oldPosition;
 
+    public Animator animator;
+
     public Rigidbody2D rb;
 
     void Start(){
+        //animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -40,11 +47,13 @@ public class PlayerMove : MonoBehaviour
             if (moveLeft)
             {
 			    rb.AddForce(new Vector2(-moveSpeed,0));
+                m_SpriteRenderer.flipX = true;
             }
 
             if (moveRight)
             {
 			    rb.AddForce(new Vector2(moveSpeed,0));
+                m_SpriteRenderer.flipX = false;
             }
         }
 
@@ -58,6 +67,8 @@ public class PlayerMove : MonoBehaviour
 
    void Update()
     {
+        animator.SetFloat("HSpeed", rb.velocity.y);
+        animator.SetFloat("Speed", rb.velocity.x);
         moveForward = false;
         //moveBack = false;
         moveLeft = false;
@@ -65,6 +76,9 @@ public class PlayerMove : MonoBehaviour
         jump = false;
         if (Input.GetKey("w"))
             moveForward = true;
+            animator.SetBool("IsJumping", true);
+        if (!Input.GetKey("w"))
+            animator.SetBool("IsJumping", false);
         if (Input.GetKey("a"))
             moveLeft = true;
         //if (Input.GetKey("s"))

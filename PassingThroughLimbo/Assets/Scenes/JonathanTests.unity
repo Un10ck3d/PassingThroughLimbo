@@ -344,11 +344,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7107616599039663221, guid: fabfcdf814c1a3f4892f75c243b73f3f, type: 3}
   m_PrefabInstance: {fileID: 1151602178}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &768447073 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6993136015562986994, guid: fabfcdf814c1a3f4892f75c243b73f3f, type: 3}
-  m_PrefabInstance: {fileID: 1151602178}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &768447076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,8 +356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2950332cff20997428514090f4740a20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SwordTransform: {fileID: 768447073}
-  mouse_pos: {x: 0, y: 0, z: 0}
 --- !u!1001 &1151602178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,9 +461,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8226338904595501401, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1911649127}
+    - target: {fileID: -8226338904595501401, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
       propertyPath: moveSpeed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -8226338904595501401, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
+      propertyPath: playeranimator
+      value: 
+      objectReference: {fileID: 1911649127}
+    - target: {fileID: -8226338904595501401, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
+      propertyPath: m_SpriteRenderer
+      value: 
+      objectReference: {fileID: 1911649128}
     - target: {fileID: 2309390273192572464, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
       propertyPath: m_Name
       value: PlayerObject
@@ -596,3 +601,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e030728fba2c044083f3d8ddb2b2650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1911649127 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5188343795302776433, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
+  m_PrefabInstance: {fileID: 1887761955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1911649128 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2402454847351737048, guid: fb1a58f43a4c6e34093f3ff8c78dd2b9, type: 3}
+  m_PrefabInstance: {fileID: 1887761955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1911649129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911649123}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71b4c197ac8cba44b44f7df56b6e06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  playerMove: {fileID: 1911649126}
+  get_comp: {fileID: 1911649123}
