@@ -29,9 +29,9 @@ public class PlayerMove : MonoBehaviour
         //animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
-    void OnCollisionEnter2D(Collision2D what){
-        if (what.gameObject.tag == "Floor"){
-          finalmaxjumps = maxjumps;
+    void OnCollisionEnter(Collision collision){
+        if (collision.gameObject.tag == "Floor"){
+            finalmaxjumps = maxjumps;
         }
     }
 
