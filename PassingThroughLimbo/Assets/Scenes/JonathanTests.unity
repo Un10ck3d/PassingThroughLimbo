@@ -271,7 +271,7 @@ MonoBehaviour:
   follow: {fileID: 61475110}
   hell: {fileID: 1911649126}
   smooth_speed: 0.125
-  offset: {x: 0, y: 0, z: -25}
+  offset: {x: 0, y: 0, z: -40}
   get_comp: {fileID: 1911649123}
   speed2: 0
 --- !u!81 &528472393
